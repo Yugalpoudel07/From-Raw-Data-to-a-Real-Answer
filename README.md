@@ -49,12 +49,12 @@ The [Mathematics-for-Data-Science](https://github.com/Yugalpoudel07/Mathematics-
 | :-: | :--- | :--- | :--- | :-: | :-: |
 | Test | **[StatQuest — Hypothesis Testing Set](StatQuest%20-%20hypothesis%20testing%20set/README.md)** | Josh Starmer | Null hypotheses, p-values, t-tests, ANOVA, power, p-hacking, FDR | ✅ **Notes written** | **16 / 16** |
 | Test | **Khan Academy — Significance Tests** | Khan Academy | Practice problems on significance tests and confidence intervals | ⏳ Upcoming | 0 / 40+ problems |
-| Clean | **pandas — official User Guide** | pandas docs | Indexing, merge/join, group by, reshaping, time series | ⏳ Upcoming | Planned |
+| Clean | **[pandas — official User Guide](pandas%20-%20official%20User%20Guide/README.md)** | pandas docs | Indexing, merge/join, group by, reshaping, time series | ⏳ Upcoming | Planned |
 | Clean | **Kaggle Learn — Pandas** | Kaggle | Six hands-on lessons with exercises | ⏳ Upcoming | 0 / 6 |
 | Clean | **Kaggle Learn — Data Cleaning** | Kaggle | Missing values, scaling, dates, encodings, inconsistent entries | ⏳ Upcoming | 0 / 5 |
-| Show | **matplotlib — official tutorials** | matplotlib docs | Quick Start, the Artist tutorial, layout (`fig, ax = plt.subplots()`) | ⏳ Upcoming | Planned |
-| Show | **seaborn — official tutorial** | seaborn docs | `relplot`, `displot`, `catplot`, `pairplot`, `heatmap` | ⏳ Upcoming | Planned |
-| Show | **Storytelling with Data** | Cole Nussbaumer Knaflic | Chart choice, decluttering, focusing attention | ⏳ Upcoming | Planned |
+| Show | **[matplotlib — official tutorials](matplotlib%20-%20official%20tutorials/README.md)** | matplotlib docs | Quick Start, the Artist tutorial, layout (`fig, ax = plt.subplots()`) | ⏳ Upcoming | Planned |
+| Show | **[seaborn — official tutorial](seaborn%20-%20official%20tutorial/README.md)** | seaborn docs | `relplot`, `displot`, `catplot`, `pairplot`, `heatmap` | ⏳ Upcoming | Planned |
+| Show | **[Storytelling with Data](Storytelling%20with%20Data%20%28Cole%20Nussbaumer%20Knaflic%29/README.md)** | Cole Nussbaumer Knaflic | Chart choice, decluttering, focusing attention | ⏳ Upcoming | Planned |
 | Query | **[SQL Tutorial for Data Analysis (Mode / ThoughtSpot)](SQL%20Tutorial%20for%20Data%20Analysis%20%28Mode%20%20ThoughtSpot%29/README.md)** | Mode / ThoughtSpot | `SELECT` to window functions, plus three product-analytics cases | ✅ **Completed** | **52 / 52 lessons** |
 | Query | **A daily SQL practice platform** | DataLemur / StrataScratch / LeetCode | 30 minutes of timed SQL problems every study day | ⏳ Upcoming | Habit |
 
