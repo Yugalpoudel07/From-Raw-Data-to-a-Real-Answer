@@ -2,9 +2,10 @@
 
 Taking messy real-world data to a defensible conclusion. Hypothesis testing (permutation tests, p-hacking simulation, power analysis), data cleaning in pandas, publication-quality matplotlib/seaborn charts, and SQL with window functions — ending in a complete, honest analysis of real public data.
 
-[![Modules with notes](https://img.shields.io/badge/Modules_with_notes-2%20of%2010-brightgreen?style=flat-square)](#-learning-roadmap--curriculum-status)
+[![Modules with notes](https://img.shields.io/badge/Modules_with_notes-3%20of%2010-brightgreen?style=flat-square)](#-learning-roadmap--curriculum-status)
 [![StatQuest](https://img.shields.io/badge/StatQuest_Hypothesis_Testing-16%20of%2016%20notes-blue?style=flat-square)](StatQuest%20-%20hypothesis%20testing%20set/README.md)
 [![SQL Tutorial](https://img.shields.io/badge/Mode%20SQL%20Tutorial-52%20of%2052%20lessons-blue?style=flat-square)](SQL%20Tutorial%20for%20Data%20Analysis%20%28Mode%20%20ThoughtSpot%29/README.md)
+[![pandas User Guide](https://img.shields.io/badge/pandas%20User%20Guide-7%20of%207%20notebooks-blue?style=flat-square)](pandas%20-%20official%20User%20Guide/README.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
 [![Focus](https://img.shields.io/badge/Focus-Clean%20%C2%B7%20Query%20%C2%B7%20Test%20%C2%B7%20Chart-purple?style=flat-square)](#)
 
@@ -49,7 +50,7 @@ The [Mathematics-for-Data-Science](https://github.com/Yugalpoudel07/Mathematics-
 | :-: | :--- | :--- | :--- | :-: | :-: |
 | Test | **[StatQuest — Hypothesis Testing Set](StatQuest%20-%20hypothesis%20testing%20set/README.md)** | Josh Starmer | Null hypotheses, p-values, t-tests, ANOVA, power, p-hacking, FDR | ✅ **Notes written** | **16 / 16** |
 | Test | **Khan Academy — Significance Tests** | Khan Academy | Practice problems on significance tests and confidence intervals | ⏳ Upcoming | 0 / 40+ problems |
-| Clean | **[pandas — official User Guide](pandas%20-%20official%20User%20Guide/README.md)** | pandas docs | Indexing, merge/join, group by, reshaping, time series | ⏳ Upcoming | Planned |
+| Clean | **[pandas — official User Guide](pandas%20-%20official%20User%20Guide/README.md)** | pandas docs | Indexing, Copy-on-Write, MultiIndex, merge/join, group by, reshaping, time series | ✅ **Completed** | **7 / 7 notebooks** |
 | Clean | **Kaggle Learn — Pandas** | Kaggle | Six hands-on lessons with exercises | ⏳ Upcoming | 0 / 6 |
 | Clean | **Kaggle Learn — Data Cleaning** | Kaggle | Missing values, scaling, dates, encodings, inconsistent entries | ⏳ Upcoming | 0 / 5 |
 | Show | **[matplotlib — official tutorials](matplotlib%20-%20official%20tutorials/README.md)** | matplotlib docs | Quick Start, the Artist tutorial, layout (`fig, ax = plt.subplots()`) | ⏳ Upcoming | Planned |
@@ -129,6 +130,35 @@ The [Mathematics-for-Data-Science](https://github.com/Yugalpoudel07/Mathematics-
 #### Phase 4: Advanced SQL (9 lessons)
 
 * [**Data Types & Dates**](SQL%20Tutorial%20for%20Data%20Analysis%20%28Mode%20%20ThoughtSpot%29/practice-mode-tutorial/data_types_and_dates_notes.md) · [**String Functions & Wrangling**](SQL%20Tutorial%20for%20Data%20Analysis%20%28Mode%20%20ThoughtSpot%29/practice-mode-tutorial/string_functions_and_wrangling_notes.md) · [**Subqueries**](SQL%20Tutorial%20for%20Data%20Analysis%20%28Mode%20%20ThoughtSpot%29/practice-mode-tutorial/subqueries_notes.md) · [**Window Functions**](SQL%20Tutorial%20for%20Data%20Analysis%20%28Mode%20%20ThoughtSpot%29/practice-mode-tutorial/window_functions_notes.md) · [**Pivoting & Performance**](SQL%20Tutorial%20for%20Data%20Analysis%20%28Mode%20%20ThoughtSpot%29/practice-mode-tutorial/pivoting_and_performance_notes.md)
+
+---
+
+## 🌟 Spotlight: pandas — official User Guide (Completed)
+
+> [!TIP]
+> **Complete Notebooks Available:** The seven User Guide pages assigned for Week 6 are worked through in seven Jupyter notebooks, every example run with its output saved. The headings match the docs, so each notebook can be read next to the page it covers.  
+> 👉 **[Explore the pandas Module Guide](pandas%20-%20official%20User%20Guide/README.md)**
+
+### 📚 Notebook Breakdown
+
+#### Selecting
+
+* [**01 — Indexing and Selecting Data**](pandas%20-%20official%20User%20Guide/Notebook/01_Indexing%20and%20selecting%20data.ipynb) — `.loc` vs `.iloc`, boolean masks, `isin`, `where`/`mask`, `query()`.
+* [**02 — Copy-on-Write**](pandas%20-%20official%20User%20Guide/Notebook/02_Copy%20on%20Write.ipynb) — Why `SettingWithCopyWarning` is gone in pandas 3.0 and chained assignment no longer works.
+* [**03 — MultiIndex & Advanced Indexing**](pandas%20-%20official%20User%20Guide/Notebook/03_MultiIndex%20%26%20advanced%20indexing.ipynb) — `IndexSlice`, `xs()`, sorting levels, `cut`/`qcut`.
+
+#### Combining
+
+* [**04 — Merge, Join, Concatenate**](pandas%20-%20official%20User%20Guide/Notebook/04_Merge%20join%20concatenate.ipynb) — Every merge type, explained; `validate=` and `indicator=True` for checking merges; `merge_asof`, `compare()`.
+
+#### Summarising & Reshaping
+
+* [**05 — Group By: Split-Apply-Combine**](pandas%20-%20official%20User%20Guide/Notebook/05_Group%20by%20split-apply-combine.ipynb) — Named aggregation, `transform`, filtration, and why `apply` is the slow path.
+* [**06 — Reshaping and Pivot Tables**](pandas%20-%20official%20User%20Guide/Notebook/06_Reshaping%20and%20pivot%20tables.ipynb) — `pivot_table`, `stack`/`unstack`, `melt` (long-form data for seaborn), `crosstab`.
+
+#### Time
+
+* [**07 — Time Series + Rolling Windows**](pandas%20-%20official%20User%20Guide/Notebook/07_Time%20series%20%20rolling%20windows.ipynb) — Parsing messy dates, `resample`, `shift`, time zones, rolling / expanding / EWM windows.
 
 ---
 
@@ -214,12 +244,15 @@ From-Raw-Data-to-a-Real-Answer/
 │   ├── ...                                          # Topics 02 - 15
 │   └── 16-type-2-errors.md
 ├── Khan Academy - Significance Tests/               # [Upcoming]
-├── pandas - official User Guide/                    # [Upcoming]
+├── pandas - official User Guide/                    # [Completed: 7/7 notebooks]
+│   ├── README.md                                    # Study guide: sections to read, skips, exercises
+│   ├── Notebook/                                    # 01_Indexing ... 07_Time series (one per docs page)
+│   └── Data/baseball.csv                            # Sample data used in the indexing notebook
 ├── Kaggle Learn - Pandas/                           # [Upcoming]
 ├── Kaggle Learn - Data Cleaning/                    # [Upcoming]
-├── matplotlib - official tutorials/                 # [Upcoming]
-├── seaborn - official tutorial/                     # [Upcoming]
-├── Storytelling with Data (Cole Nussbaumer Knaflic)/# [Upcoming]
+├── matplotlib - official tutorials/                 # [Study guide written]
+├── seaborn - official tutorial/                     # [Study guide written]
+├── Storytelling with Data (Cole Nussbaumer Knaflic)/# [Study guide written]
 ├── SQL Tutorial for Data Analysis (Mode  ThoughtSpot)/  # [Completed: 52/52 lessons]
 │   ├── README.md                                    # Module overview & syllabus
 │   └── practice-mode-tutorial/                      # 15 lesson-note files + index
@@ -235,6 +268,7 @@ From-Raw-Data-to-a-Real-Answer/
 * Every StatQuest note has **top and bottom navigation** so you can read straight through.
 * Start each StatQuest note at the **`[!TIP]` Core Intuition** callout, and fill in the **"My one line"** box yourself after watching the video.
 * StatQuest Part V (p-hacking, FDR) maps directly onto the p-hacking simulation — watch it right before writing that code.
+* Each pandas notebook follows the headings of its User Guide page, so keep the docs page open beside it. Notebook 04's **validate= / indicator=True** template is the one to copy into every cleaning notebook.
 * The SQL notes' **Case 3 (A/B test validation)** is the practical twin of the StatQuest power and p-hacking topics — read them side by side.
 
 ---
