@@ -2,10 +2,11 @@
 
 Taking messy real-world data to a defensible conclusion. Hypothesis testing (permutation tests, p-hacking simulation, power analysis), data cleaning in pandas, publication-quality matplotlib/seaborn charts, and SQL with window functions — ending in a complete, honest analysis of real public data.
 
-[![Modules with notes](https://img.shields.io/badge/Modules_with_notes-3%20of%2010-brightgreen?style=flat-square)](#-learning-roadmap--curriculum-status)
+[![Modules with notes](https://img.shields.io/badge/Modules_with_notes-4%20of%2010-brightgreen?style=flat-square)](#-learning-roadmap--curriculum-status)
 [![StatQuest](https://img.shields.io/badge/StatQuest_Hypothesis_Testing-16%20of%2016%20notes-blue?style=flat-square)](StatQuest%20-%20hypothesis%20testing%20set/README.md)
 [![SQL Tutorial](https://img.shields.io/badge/Mode%20SQL%20Tutorial-52%20of%2052%20lessons-blue?style=flat-square)](SQL%20Tutorial%20for%20Data%20Analysis%20%28Mode%20%20ThoughtSpot%29/README.md)
 [![pandas User Guide](https://img.shields.io/badge/pandas%20User%20Guide-7%20of%207%20notebooks-blue?style=flat-square)](pandas%20-%20official%20User%20Guide/README.md)
+[![Kaggle Pandas](https://img.shields.io/badge/Kaggle%20Learn%20Pandas-Certified%20%C2%B7%206%20of%206-20BEFF?style=flat-square&logo=kaggle&logoColor=white)](Kaggle%20Learn%20-%20Pandas/README.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
 [![Focus](https://img.shields.io/badge/Focus-Clean%20%C2%B7%20Query%20%C2%B7%20Test%20%C2%B7%20Chart-purple?style=flat-square)](#)
 
@@ -51,7 +52,7 @@ The [Mathematics-for-Data-Science](https://github.com/Yugalpoudel07/Mathematics-
 | Test | **[StatQuest — Hypothesis Testing Set](StatQuest%20-%20hypothesis%20testing%20set/README.md)** | Josh Starmer | Null hypotheses, p-values, t-tests, ANOVA, power, p-hacking, FDR | ✅ **Notes written** | **16 / 16** |
 | Test | **Khan Academy — Significance Tests** | Khan Academy | Practice problems on significance tests and confidence intervals | ⏳ Upcoming | 0 / 40+ problems |
 | Clean | **[pandas — official User Guide](pandas%20-%20official%20User%20Guide/README.md)** | pandas docs | Indexing, Copy-on-Write, MultiIndex, merge/join, group by, reshaping, time series | ✅ **Completed** | **7 / 7 notebooks** |
-| Clean | **Kaggle Learn — Pandas** | Kaggle | Six hands-on lessons with exercises | ⏳ Upcoming | 0 / 6 |
+| Clean | **[Kaggle Learn — Pandas](Kaggle%20Learn%20-%20Pandas/README.md)** | Kaggle | Six hands-on lessons with exercises | ✅ **Certified** 🏆 | **6 / 6 lessons** |
 | Clean | **Kaggle Learn — Data Cleaning** | Kaggle | Missing values, scaling, dates, encodings, inconsistent entries | ⏳ Upcoming | 0 / 5 |
 | Show | **[matplotlib — official tutorials](matplotlib%20-%20official%20tutorials/README.md)** | matplotlib docs | Quick Start, the Artist tutorial, layout (`fig, ax = plt.subplots()`) | ⏳ Upcoming | Planned |
 | Show | **[seaborn — official tutorial](seaborn%20-%20official%20tutorial/README.md)** | seaborn docs | `relplot`, `displot`, `catplot`, `pairplot`, `heatmap` | ⏳ Upcoming | Planned |
@@ -162,6 +163,27 @@ The [Mathematics-for-Data-Science](https://github.com/Yugalpoudel07/Mathematics-
 
 ---
 
+## 🏆 Spotlight: Kaggle Learn — Pandas (Certified)
+
+> [!TIP]
+> **Course completed with certificate (1 October 2026).** All six lessons done, every exercise check passed (**35 / 35**), mostly on the 130k-row Wine Reviews dataset.  
+> 👉 **[Explore the Kaggle Pandas Module](Kaggle%20Learn%20-%20Pandas/README.md)**
+
+<p align="center">
+  <a href="Kaggle%20Learn%20-%20Pandas/README.md"><img src="Kaggle%20Learn%20-%20Pandas/kaggle-pandas-certificate.png" alt="Kaggle Learn Pandas certificate of completion, Yugal Poudel, 1 October 2026" width="520"></a>
+</p>
+
+| # | Lesson | Notebook | Checks |
+| :-: | :--- | :--- | :-: |
+| 1 | Creating, Reading and Writing | [01](Kaggle%20Learn%20-%20Pandas/Notebooks/01_creating-reading-and-writing.ipynb) | 5 / 5 |
+| 2 | Indexing, Selecting & Assigning | [02](Kaggle%20Learn%20-%20Pandas/Notebooks/02_indexing-selecting-and-assigning.ipynb) | 9 / 9 |
+| 3 | Summary Functions and Maps | [03](Kaggle%20Learn%20-%20Pandas/Notebooks/03_summary-functions-and-maps.ipynb) | 7 / 7 |
+| 4 | Grouping and Sorting | [04](Kaggle%20Learn%20-%20Pandas/Notebooks/04_grouping-and-sorting.ipynb) | 6 / 6 |
+| 5 | Data Types and Missing Values | [05](Kaggle%20Learn%20-%20Pandas/Notebooks/05_data-types-and-missing-values.ipynb) | 4 / 4 |
+| 6 | Renaming and Combining | [06](Kaggle%20Learn%20-%20Pandas/Notebooks/06_renaming-and-combining.ipynb) | 4 / 4 |
+
+---
+
 ## 💡 How Each Stage Powers Data Science
 
 | Stage | Concept | Data Science Role | Concrete Application |
@@ -248,7 +270,10 @@ From-Raw-Data-to-a-Real-Answer/
 │   ├── README.md                                    # Study guide: sections to read, skips, exercises
 │   ├── Notebook/                                    # 01_Indexing ... 07_Time series (one per docs page)
 │   └── Data/baseball.csv                            # Sample data used in the indexing notebook
-├── Kaggle Learn - Pandas/                           # [Upcoming]
+├── Kaggle Learn - Pandas/                           # [Certified: 6/6 lessons]
+│   ├── README.md                                    # Lessons, scores, certificate
+│   ├── kaggle-pandas-certificate.png                # Certificate of completion
+│   └── Notebooks/                                   # 01_creating-reading-and-writing ... 06_renaming-and-combining
 ├── Kaggle Learn - Data Cleaning/                    # [Upcoming]
 ├── matplotlib - official tutorials/                 # [Study guide written]
 ├── seaborn - official tutorial/                     # [Study guide written]
@@ -269,6 +294,7 @@ From-Raw-Data-to-a-Real-Answer/
 * Start each StatQuest note at the **`[!TIP]` Core Intuition** callout, and fill in the **"My one line"** box yourself after watching the video.
 * StatQuest Part V (p-hacking, FDR) maps directly onto the p-hacking simulation — watch it right before writing that code.
 * Each pandas notebook follows the headings of its User Guide page, so keep the docs page open beside it. Notebook 04's **validate= / indicator=True** template is the one to copy into every cleaning notebook.
+* Do the Kaggle Pandas exercises *after* the matching User Guide notebook; the module README has a lesson-by-lesson map between the two.
 * The SQL notes' **Case 3 (A/B test validation)** is the practical twin of the StatQuest power and p-hacking topics — read them side by side.
 
 ---

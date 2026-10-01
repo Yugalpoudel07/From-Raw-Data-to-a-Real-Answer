@@ -18,7 +18,7 @@
 > The User Guide is ~30 pages long and each page is huge. This file tells you **which headings inside each page** to read and which to skip. Every link below jumps straight to the heading.
 
 > [!TIP]
-> **Status: completed.** All 7 parts are worked through in Jupyter notebooks, one per page, with every example run and its output saved. 👉 **[Jump to the notebooks](#-notebooks)**
+> **Status: completed.** All 7 parts are worked through in Jupyter notebooks, one per page, with every example run and its output saved. 👉 **[Jump to the notebooks](#-notebooks)** · Graded practice: **[Kaggle Learn — Pandas](../Kaggle%20Learn%20-%20Pandas/README.md)** 🏆
 
 > [!IMPORTANT]
 > **pandas 3.0 changed one thing in the roadmap.** Week 6 says *"learn what causes `SettingWithCopyWarning`"*. In pandas 3.0 **Copy-on-Write is the only mode**, so that warning is gone. Chained assignment like `df[df.a > 0]["b"] = 1` now **never works** and gives a `ChainedAssignmentError` warning instead. Part 2 below covers this (15 minutes). Check your version with `pd.__version__`.
