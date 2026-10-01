@@ -186,7 +186,7 @@ One notebook per page, in study order. Headings follow the User Guide headings, 
 | Data types and memory | [Scaling to large datasets](https://pandas.pydata.org/docs/user_guide/scale.html) | [Use efficient datatypes](https://pandas.pydata.org/docs/user_guide/scale.html#use-efficient-datatypes) (`category`, downcasting, `memory_usage(deep=True)`) |
 | Categorical columns | [Categorical data](https://pandas.pydata.org/docs/user_guide/categorical.html) | Object creation, and the part on memory usage |
 
-*(Kaggle Learn — Data Cleaning covers the missing-data topic too.)*
+*([Kaggle Learn — Data Cleaning](../Kaggle%20Learn%20-%20Data%20Cleaning/README.md) 🏆 covers the missing-data topic too, on a real messy dataset.)*
 
 ---
 

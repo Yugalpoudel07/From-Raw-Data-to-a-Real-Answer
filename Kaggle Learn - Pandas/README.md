@@ -1,4 +1,4 @@
-[🏠 **Main Repository**](../README.md) &nbsp;•&nbsp; [⏮️ **Previous module: pandas User Guide**](../pandas%20-%20official%20User%20Guide/README.md)
+[🏠 **Main Repository**](../README.md) &nbsp;•&nbsp; [⏮️ **Previous module: pandas User Guide**](../pandas%20-%20official%20User%20Guide/README.md) &nbsp;•&nbsp; [**Next module: Kaggle Learn — Data Cleaning** ⏭️](../Kaggle%20Learn%20-%20Data%20Cleaning/README.md)
 
 ---
 
@@ -88,4 +88,4 @@ Kaggle Learn - Pandas/
 
 ---
 
-[🏠 **Main Repository**](../README.md) &nbsp;•&nbsp; [⏮️ **Previous module: pandas User Guide**](../pandas%20-%20official%20User%20Guide/README.md)
+[🏠 **Main Repository**](../README.md) &nbsp;•&nbsp; [⏮️ **Previous module: pandas User Guide**](../pandas%20-%20official%20User%20Guide/README.md) &nbsp;•&nbsp; [**Next module: Kaggle Learn — Data Cleaning** ⏭️](../Kaggle%20Learn%20-%20Data%20Cleaning/README.md)
