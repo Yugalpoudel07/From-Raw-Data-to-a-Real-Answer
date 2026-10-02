@@ -1,0 +1,7 @@
+# Raw and processed data are re-created by the scripts (raw file is 96 MB)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+__pycache__/
+.ipynb_checkpoints/

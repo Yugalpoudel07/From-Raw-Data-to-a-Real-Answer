@@ -10,6 +10,8 @@ Taking messy real-world data to a defensible conclusion. Hypothesis testing (per
 [![seaborn tutorial](https://img.shields.io/badge/seaborn%20tutorial-13%20of%2013%20notebooks-blue?style=flat-square)](seaborn%20-%20official%20tutorial/README.md)
 [![Kaggle Pandas](https://img.shields.io/badge/Kaggle%20Learn%20Pandas-Certified%20%C2%B7%206%20of%206-20BEFF?style=flat-square&logo=kaggle&logoColor=white)](Kaggle%20Learn%20-%20Pandas/README.md)
 [![Kaggle Data Cleaning](https://img.shields.io/badge/Kaggle%20Learn%20Data%20Cleaning-Certified%20%C2%B7%205%20of%205-20BEFF?style=flat-square&logo=kaggle&logoColor=white)](Kaggle%20Learn%20-%20Data%20Cleaning/README.md)
+[![Project P1](https://img.shields.io/badge/Project%20P1-NYC%20Restaurant%20Grades%20%C2%B7%20reproducible-brightgreen?style=flat-square)](P1%20-%20NYC%20Restaurant%20Grades/README.md)
+[![Gate 2](https://img.shields.io/badge/Gate%202-worked%20solutions%20ready-orange?style=flat-square)](Gate%202%20-%20worked%20solutions/README.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
 [![Focus](https://img.shields.io/badge/Focus-Clean%20%C2%B7%20Query%20%C2%B7%20Test%20%C2%B7%20Chart-purple?style=flat-square)](#)
 
@@ -62,6 +64,24 @@ The [Mathematics-for-Data-Science](https://github.com/Yugalpoudel07/Mathematics-
 | Show | **[Storytelling with Data](Storytelling%20with%20Data%20%28Cole%20Nussbaumer%20Knaflic%29/README.md)** | Cole Nussbaumer Knaflic | Chart choice, decluttering, focusing attention | ⏳ Upcoming | Planned |
 | Query | **[SQL Tutorial for Data Analysis (Mode / ThoughtSpot)](SQL%20Tutorial%20for%20Data%20Analysis%20%28Mode%20%20ThoughtSpot%29/README.md)** | Mode / ThoughtSpot | `SELECT` to window functions, plus three product-analytics cases | ✅ **Completed** | **52 / 52 lessons** |
 | Query | **A daily SQL practice platform** | DataLemur / StrataScratch / LeetCode | 30 minutes of timed SQL problems every study day | ⏳ Upcoming | Habit |
+| **Ship** | **[Project P1 — Does an "A" Mean the Same Thing Twice?](P1%20-%20NYC%20Restaurant%20Grades/README.md)** | NYC Open Data (DOHMH) | Real messy data → documented cleaning → CIs → 7 figures → limitations | ✅ **Built & reproducible** | **2 notebooks · 7 figures** |
+| **Gate** | **[Gate 2 — worked solutions](Gate%202%20-%20worked%20solutions/README.md)** | P1's tables in DuckDB | SQL window functions, a pandas groupby–merge–reshape chain, chart choice, artifact test | 📘 **Solutions ready** · gate still to sit | **3 notebooks + checklist** |
+
+---
+
+## 🍽️ Spotlight: Project P1 — Does an "A" Mean the Same Thing Twice?
+
+> [!TIP]
+> **The Month 2 project.** 300,000 rows of real NYC restaurant inspection data, cleaned with a reason next to every decision, analysed with restaurant-level bootstrap confidence intervals, and reproducible with one command (`python run_all.py`, checked from scratch in a fresh environment).  
+> 👉 **[Read the P1 README](P1%20-%20NYC%20Restaurant%20Grades/README.md)** · **[Gate 2 worked solutions](Gate%202%20-%20worked%20solutions/README.md)**
+
+**Question:** does an A in a New York restaurant's window mean the same thing whether it was earned at the first, unannounced inspection or only after a re-inspection?
+
+**Answer: no.** About **3 in 10** A grades follow a failed surprise inspection. Those restaurants fail their **next** surprise inspection **51.6%** of the time vs **33.1%** for first-time A's: **+18.5 points (95% CI 17.5 to 19.5)**, in every borough.
+
+<p align="center">
+  <a href="P1%20-%20NYC%20Restaurant%20Grades/README.md"><img src="P1%20-%20NYC%20Restaurant%20Grades/figures/fig1_next_inspection_fail_rate.png" alt="Fail rate at the next surprise inspection: 33% for first-time A grades vs 52% for A grades earned on re-inspection" width="640"></a>
+</p>
 
 ---
 
@@ -262,32 +282,32 @@ The [Mathematics-for-Data-Science](https://github.com/Yugalpoudel07/Mathematics-
 
 **Cleaning & reshaping**
 
-- [ ] A genuinely messy public dataset, cleaned completely, with a reason next to every decision
-- [ ] A reusable `data_quality_report(df)` function: missing values, unique counts, type problems, duplicates, outliers
+- [x] A genuinely messy public dataset, cleaned completely, with a reason next to every decision
+- [x] A reusable `data_quality_report(df)` function: missing values, unique counts, type problems, duplicates, outliers
 - [ ] A slow groupby analysis rewritten vectorised, with the speedup recorded
 
 **Charts**
 
 - [ ] Eight chart types at publication quality, built with `fig, ax = plt.subplots()`
-- [ ] One figure that argues a single finding
+- [x] One figure that argues a single finding
 - [ ] A bad chart from the wild, reproduced and fixed, with a 150-word explanation
-- [ ] `plotting_utils.py` — default style, colours, and a 300-dpi save function
+- [x] `plotting_utils.py` — default style, colours, and a 300-dpi save function
 
 **SQL**
 
 - [x] Mode SQL Tutorial — all 52 lessons
 - [ ] 15 business questions answered in SQL on a real multi-table dataset, ending with window functions
-- [ ] One analysis done in both SQL and pandas, with a note on which was clearer
+- [x] One analysis done in both SQL and pandas, with a note on which was clearer
 
-**The final analysis — a complete answer from real, messy public data**
+**The final analysis — a complete answer from real, messy public data** → [Project P1](P1%20-%20NYC%20Restaurant%20Grades/README.md)
 
-- [ ] A question stated at the top, before any analysis
-- [ ] Cleaning decisions documented with reasons
-- [ ] Confidence intervals, not bare point estimates
-- [ ] 5–8 publication-quality figures
-- [ ] A conclusion that answers the question
-- [ ] A limitations section: what the analysis cannot prove
-- [ ] A README a stranger can follow to run it
+- [x] A question stated at the top, before any analysis
+- [x] Cleaning decisions documented with reasons
+- [x] Confidence intervals, not bare point estimates
+- [x] 5–8 publication-quality figures
+- [x] A conclusion that answers the question
+- [x] A limitations section: what the analysis cannot prove
+- [x] A README a stranger can follow to run it
 
 ---
 
@@ -342,6 +362,15 @@ From-Raw-Data-to-a-Real-Answer/
 │   ├── README.md                                    # Module overview & syllabus
 │   └── practice-mode-tutorial/                      # 15 lesson-note files + index
 ├── A daily SQL practice platform/                   # [Upcoming]
+├── P1 - NYC Restaurant Grades/                      # [Project P1: built & reproducible]
+│   ├── README.md                                    # Question, answer, how to run, cleaning, results, limitations
+│   ├── run_all.py                                   # One command: download → clean → analyse
+│   ├── notebooks/                                   # 01_data_quality_and_cleaning, 02_analysis_and_figures
+│   ├── src/                                         # cleaning.py, analysis.py, plotting_utils.py, download_data.py
+│   ├── figures/                                     # 7 figures, 300 dpi
+│   └── results/                                     # key_numbers.json, robustness_checks.csv
+├── Gate 2 - worked solutions/                       # [SQL, pandas, charts, artifact test]
+├── docs/                                            # Month 2 Project Guide (Word report)
 ├── LICENSE                                          # MIT License
 └── README.md                                        # Main repository index (You are here)
 ```

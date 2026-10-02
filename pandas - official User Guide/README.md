@@ -194,6 +194,6 @@ One notebook per page, in study order. Headings follow the User Guide headings, 
 
 > The reading is done; these build tasks are still open and belong to the Month 2 cleaning work.
 
-- [ ] A messy public dataset cleaned completely, with **a reason written next to every decision** and row counts before and after
-- [ ] `data_quality_report(df)`: missing values, unique counts, type problems, duplicates, outliers
+- [x] A messy public dataset cleaned completely, with **a reason written next to every decision** and row counts before and after: done in [Project P1](../P1%20-%20NYC%20Restaurant%20Grades/README.md#-cleaning-decisions-each-with-a-reason-and-row-counts) (NYC restaurant inspections)
+- [x] `data_quality_report(df)`: missing values, unique counts, type problems, duplicates, outliers: [`P1/src/cleaning.py`](../P1%20-%20NYC%20Restaurant%20Grades/src/cleaning.py)
 - [ ] A slow `apply` groupby rewritten vectorised, with the speedup recorded (Part 5)

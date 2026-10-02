@@ -1,0 +1,9 @@
+# Tested with Python 3.10-3.12 on 2 Oct 2026 (exact versions used: see README "Reproducibility")
+pandas>=2.2
+numpy>=1.26
+matplotlib>=3.8
+seaborn>=0.13
+duckdb>=1.0
+jupyter
+nbclient>=0.10
+ipykernel
