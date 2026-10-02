@@ -2,10 +2,12 @@
 
 Taking messy real-world data to a defensible conclusion. Hypothesis testing (permutation tests, p-hacking simulation, power analysis), data cleaning in pandas, publication-quality matplotlib/seaborn charts, and SQL with window functions — ending in a complete, honest analysis of real public data.
 
-[![Modules with notes](https://img.shields.io/badge/Modules_with_notes-5%20of%2010-brightgreen?style=flat-square)](#-learning-roadmap--curriculum-status)
+[![Modules with notes](https://img.shields.io/badge/Modules_with_notes-7%20of%2010-brightgreen?style=flat-square)](#-learning-roadmap--curriculum-status)
 [![StatQuest](https://img.shields.io/badge/StatQuest_Hypothesis_Testing-16%20of%2016%20notes-blue?style=flat-square)](StatQuest%20-%20hypothesis%20testing%20set/README.md)
 [![SQL Tutorial](https://img.shields.io/badge/Mode%20SQL%20Tutorial-52%20of%2052%20lessons-blue?style=flat-square)](SQL%20Tutorial%20for%20Data%20Analysis%20%28Mode%20%20ThoughtSpot%29/README.md)
 [![pandas User Guide](https://img.shields.io/badge/pandas%20User%20Guide-7%20of%207%20notebooks-blue?style=flat-square)](pandas%20-%20official%20User%20Guide/README.md)
+[![matplotlib tutorials](https://img.shields.io/badge/matplotlib%20tutorials-7%20of%207%20notebooks-blue?style=flat-square)](matplotlib%20-%20official%20tutorials/README.md)
+[![seaborn tutorial](https://img.shields.io/badge/seaborn%20tutorial-13%20of%2013%20notebooks-blue?style=flat-square)](seaborn%20-%20official%20tutorial/README.md)
 [![Kaggle Pandas](https://img.shields.io/badge/Kaggle%20Learn%20Pandas-Certified%20%C2%B7%206%20of%206-20BEFF?style=flat-square&logo=kaggle&logoColor=white)](Kaggle%20Learn%20-%20Pandas/README.md)
 [![Kaggle Data Cleaning](https://img.shields.io/badge/Kaggle%20Learn%20Data%20Cleaning-Certified%20%C2%B7%205%20of%205-20BEFF?style=flat-square&logo=kaggle&logoColor=white)](Kaggle%20Learn%20-%20Data%20Cleaning/README.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
@@ -55,8 +57,8 @@ The [Mathematics-for-Data-Science](https://github.com/Yugalpoudel07/Mathematics-
 | Clean | **[pandas — official User Guide](pandas%20-%20official%20User%20Guide/README.md)** | pandas docs | Indexing, Copy-on-Write, MultiIndex, merge/join, group by, reshaping, time series | ✅ **Completed** | **7 / 7 notebooks** |
 | Clean | **[Kaggle Learn — Pandas](Kaggle%20Learn%20-%20Pandas/README.md)** | Kaggle | Six hands-on lessons with exercises | ✅ **Certified** 🏆 | **6 / 6 lessons** |
 | Clean | **[Kaggle Learn — Data Cleaning](Kaggle%20Learn%20-%20Data%20Cleaning/README.md)** | Kaggle | Missing values, scaling, dates, encodings, inconsistent entries | ✅ **Certified** 🏆 | **5 / 5 lessons** |
-| Show | **[matplotlib — official tutorials](matplotlib%20-%20official%20tutorials/README.md)** | matplotlib docs | Quick Start, the Artist tutorial, layout (`fig, ax = plt.subplots()`) | ⏳ Upcoming | Planned |
-| Show | **[seaborn — official tutorial](seaborn%20-%20official%20tutorial/README.md)** | seaborn docs | `relplot`, `displot`, `catplot`, `pairplot`, `heatmap` | ⏳ Upcoming | Planned |
+| Show | **[matplotlib — official tutorials](matplotlib%20-%20official%20tutorials/README.md)** | matplotlib docs | Quick Start, the Artist tutorial, layout, arranging Axes, annotations, colormaps | ✅ **Completed** | **7 / 7 notebooks** |
+| Show | **[seaborn — official tutorial](seaborn%20-%20official%20tutorial/README.md)** | seaborn docs | Axes- vs figure-level, `relplot`, `displot`, `catplot`, error bars, regression, grids, palettes, `heatmap` | ✅ **Completed** | **13 / 13 notebooks** |
 | Show | **[Storytelling with Data](Storytelling%20with%20Data%20%28Cole%20Nussbaumer%20Knaflic%29/README.md)** | Cole Nussbaumer Knaflic | Chart choice, decluttering, focusing attention | ⏳ Upcoming | Planned |
 | Query | **[SQL Tutorial for Data Analysis (Mode / ThoughtSpot)](SQL%20Tutorial%20for%20Data%20Analysis%20%28Mode%20%20ThoughtSpot%29/README.md)** | Mode / ThoughtSpot | `SELECT` to window functions, plus three product-analytics cases | ✅ **Completed** | **52 / 52 lessons** |
 | Query | **A daily SQL practice platform** | DataLemur / StrataScratch / LeetCode | 30 minutes of timed SQL problems every study day | ⏳ Upcoming | Habit |
@@ -205,6 +207,35 @@ The [Mathematics-for-Data-Science](https://github.com/Yugalpoudel07/Mathematics-
 
 ---
 
+## 🌟 Spotlight: matplotlib — official tutorials (Completed)
+
+> [!TIP]
+> **Complete Notebooks Available:** The three core pages (Quick Start, the Artist tutorial, the layout guides) plus four bridge pages are worked through in seven notebooks, every example run with its output saved and every cell commented. All of it uses `fig, ax = plt.subplots()`.
+> 👉 **[Explore the matplotlib Module Guide](matplotlib%20-%20official%20tutorials/README.md)**
+
+* [**01 — Quick Start Guide**](matplotlib%20-%20official%20tutorials/Notebook/01_Quick%20start%20guide.ipynb) — Figure → Axes → Axis → Artist, OO vs pyplot, the `ax` helper-function pattern.
+* [**02 — The Lifecycle of a Plot**](matplotlib%20-%20official%20tutorials/Notebook/02_The%20Lifecycle%20of%20a%20Plot.ipynb) — One chart from raw data to a saved PNG.
+* [**03 — Artist Tutorial**](matplotlib%20-%20official%20tutorials/Notebook/03_Artist%20tutorial.ipynb) — Primitives vs containers, `get_*`/`set_*`, and the setters-only exercise.
+* [**04 — Constrained & Tight Layout**](matplotlib%20-%20official%20tutorials/Notebook/04_Constrained%20and%20tight%20layout.ipynb) · [**05 — Arranging Multiple Axes**](matplotlib%20-%20official%20tutorials/Notebook/05_Arranging%20multiple%20Axes.ipynb) — Colorbars, legends outside, mosaics, small multiples.
+* [**06 — Annotations**](matplotlib%20-%20official%20tutorials/Notebook/06_Annotations.ipynb) · [**07 — Choosing Colormaps**](matplotlib%20-%20official%20tutorials/Notebook/07_Choosing%20colormaps.ipynb) — The arrow that makes the argument, and why `jet` is wrong.
+
+---
+
+## 🌟 Spotlight: seaborn — official tutorial (Completed)
+
+> [!TIP]
+> **Complete Notebooks Available:** All 12 pages of the user guide and tutorial, plus the `heatmap` API page, in 13 notebooks with outputs saved. The docs' random seeds are kept, so the bootstrapped bands match the website.
+> 👉 **[Explore the seaborn Module Guide](seaborn%20-%20official%20tutorial/README.md)**
+
+| Part | Notebooks |
+| :--- | :--- |
+| How seaborn works | [01 Introduction](seaborn%20-%20official%20tutorial/Notebook/01_An%20introduction%20to%20seaborn.ipynb) · [02 ⭐ Axes- vs figure-level](seaborn%20-%20official%20tutorial/Notebook/02_Overview%20of%20plotting%20functions.ipynb) · [03 Long vs wide data](seaborn%20-%20official%20tutorial/Notebook/03_Data%20structures.ipynb) · [04 seaborn.objects](seaborn%20-%20official%20tutorial/Notebook/04_The%20seaborn.objects%20interface.ipynb) |
+| Plotting functions | [05 Relationships](seaborn%20-%20official%20tutorial/Notebook/05_Visualizing%20statistical%20relationships.ipynb) · [06 ⭐ Distributions](seaborn%20-%20official%20tutorial/Notebook/06_Visualizing%20distributions.ipynb) · [07 Categorical](seaborn%20-%20official%20tutorial/Notebook/07_Visualizing%20categorical%20data.ipynb) |
+| Statistics | [08 Error bars](seaborn%20-%20official%20tutorial/Notebook/08_Statistical%20estimation%20and%20error%20bars.ipynb) · [09 Regression fits](seaborn%20-%20official%20tutorial/Notebook/09_Estimating%20regression%20fits.ipynb) |
+| Figures & style | [10 Multi-plot grids](seaborn%20-%20official%20tutorial/Notebook/10_Building%20structured%20multi-plot%20grids.ipynb) · [11 Aesthetics](seaborn%20-%20official%20tutorial/Notebook/11_Controlling%20figure%20aesthetics.ipynb) · [12 Colour palettes](seaborn%20-%20official%20tutorial/Notebook/12_Choosing%20color%20palettes.ipynb) · [13 `heatmap`](seaborn%20-%20official%20tutorial/Notebook/13_heatmap%20API%20page.ipynb) |
+
+---
+
 ## 💡 How Each Stage Powers Data Science
 
 | Stage | Concept | Data Science Role | Concrete Application |
@@ -299,8 +330,13 @@ From-Raw-Data-to-a-Real-Answer/
 │   ├── README.md                                    # Lessons, datasets, scores, certificate
 │   ├── kaggle-data-cleaning-certificate.png         # Certificate of completion
 │   └── Notebooks/                                   # 01_handling-missing-values ... 05_inconsistent-data-entry
-├── matplotlib - official tutorials/                 # [Study guide written]
-├── seaborn - official tutorial/                     # [Study guide written]
+├── matplotlib - official tutorials/                 # [Completed: 7/7 notebooks]
+│   ├── README.md                                    # Study guide: sections to read, skips, exercises
+│   ├── Notebook/                                    # 01_Quick start guide ... 07_Choosing colormaps
+│   └── Figures/                                     # PNGs saved by notebooks 02 and 04
+├── seaborn - official tutorial/                     # [Completed: 13/13 notebooks]
+│   ├── README.md                                    # Study guide: the 12 tutorial pages + heatmap
+│   └── Notebook/                                    # 01_An introduction ... 13_heatmap API page
 ├── Storytelling with Data (Cole Nussbaumer Knaflic)/# [Study guide written]
 ├── SQL Tutorial for Data Analysis (Mode  ThoughtSpot)/  # [Completed: 52/52 lessons]
 │   ├── README.md                                    # Module overview & syllabus
@@ -320,6 +356,8 @@ From-Raw-Data-to-a-Real-Answer/
 * Each pandas notebook follows the headings of its User Guide page, so keep the docs page open beside it. Notebook 04's **validate= / indicator=True** template is the one to copy into every cleaning notebook.
 * Do the Kaggle Pandas exercises *after* the matching User Guide notebook; the module README has a lesson-by-lesson map between the two.
 * Before the final analysis, reread the **"Cleaning decisions worth remembering"** list in the Kaggle Data Cleaning README: it is the checklist for documenting every drop, fill and fix.
+* Read matplotlib notebook 03 (Artist tutorial) before the seaborn notebooks: seaborn notebook 02 shows where seaborn hands you a matplotlib `Axes` (`ax=`) or a grid (`g.ax`, `g.axes`).
+* The chart build tasks have worked examples to copy: argument figure → matplotlib 06, small multiples → matplotlib 05, histogram + density and ECDF → seaborn 06, scatter + trend → seaborn 09, correlation heatmap → seaborn 13.
 * The SQL notes' **Case 3 (A/B test validation)** is the practical twin of the StatQuest power and p-hacking topics — read them side by side.
 
 ---
